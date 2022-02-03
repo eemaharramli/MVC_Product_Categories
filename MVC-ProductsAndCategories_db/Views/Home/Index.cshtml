@@ -1,0 +1,12 @@
+@model HomeViewModel
+<h1>Home Index</h1>
+
+@foreach (var item in Model.Products)
+{
+    <li>@item</li>
+}
+<br>
+@foreach (var item in Model.Categories)
+{
+    <li>@item</li>
+}
